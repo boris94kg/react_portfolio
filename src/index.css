@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  background: #dfe6e9; /* fallback for old browsers */
+  background: #f4f8fa; /* fallback for old browsers */
   /* background: -webkit-linear-gradient(
     to right,
     #ffffff,
@@ -15,6 +15,7 @@ body {
     #ece9e6
   );  */
   /* W3C, IE 10+/ Edge,Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
 }
 
 header {
@@ -38,11 +39,15 @@ header {
   margin: 1rem 5rem;
 }
 
-.logo .logo-img {
+.logo .link {
   display: flex;
   height: 85px;
   width: 85px;
   align-self: center;
+}
+.logo .link .logo-img {
+  height: 100%;
+  width: 100%;
 }
 
 .navigation {
@@ -65,13 +70,53 @@ header {
 
 .navigation .nav .nav-item .nav-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
 .navigation .nav .nav-item .nav-link:hover {
-  color: #b2bec3;
-  transition: 0.3s;
+  /* background-image: linear-gradient(
+    135deg,
+    rgb(33, 176, 233) 0%,
+    rgb(32, 35, 226) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  background-image: linear-gradient(
+    135deg,
+    rgb(33, 176, 233) 0%,
+    rgb(32, 35, 226) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 1s ease-in-out;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+  height: 100vh;
+  margin-top: 20rem;
+}
+
+.headline span {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #0f2027;
+  margin: 1rem 0;
+}
+
+.headline span .name,
+.headline span .dash {
+  background-image: linear-gradient(
+    135deg,
+    rgb(33, 176, 233) 0%,
+    rgb(32, 35, 226) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
