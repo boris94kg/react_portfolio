@@ -6,7 +6,7 @@ import Main from "./pages/Main";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Headline from "./pages/Headline";
+import Headline from "./components/Headline";
 
 function App() {
   return (

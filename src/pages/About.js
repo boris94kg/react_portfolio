@@ -1,10 +1,28 @@
 import React from "react";
+import MyPhoto from "../images/img-me.jpeg";
+import Pulse from "react-reveal/Pulse";
 
 export const About = () => {
   return (
-    <div>
-      <h1>About page</h1>
-    </div>
+    <Pulse>
+      <div className="about-container">
+        <h1 className="title">About me</h1>
+        <div className="about-me">
+          <p>
+            I'm a 25 year old Junior Front-End Developer who is seeking for
+            position in IT industry. I consider myself highly motivated
+            individual, who likes challenges, change and the continuous process
+            of learning and upgrading oneself. Excited for new opportunities,
+            ready to work hard and always eager to learn more and improve as
+            much as possible.
+          </p>
+        </div>
+        <div className="image-holder">
+          <img src={MyPhoto} alt="img-me" />
+        </div>
+        {/* <div className="break-column"></div> */}
+      </div>
+    </Pulse>
   );
 };
 

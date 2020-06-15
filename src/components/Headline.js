@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Bounce from "react-reveal/Bounce";
+import Button from "./Button";
 
 export const Headline = () => {
   return (
@@ -9,8 +10,9 @@ export const Headline = () => {
           Hi, my name is <span className="name">Boris</span>
         </span>
         <span>
-          I'm a Junior Front<span className="dash">-</span>end Developer
+          I'm a Junior Front<span className="dash">-</span>end Developer.
         </span>
+        <Button />
       </div>
     </Bounce>
   );
