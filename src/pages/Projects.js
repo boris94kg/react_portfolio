@@ -3,9 +3,13 @@ import SingleProject from "../components/SingleProject";
 
 export const Projects = () => {
   return (
-    <div>
-      <h1>Projects page</h1>
+    <div className="projects-container">
+      <h1 className="title">Projects page</h1>
       <SingleProject />
+      {/* <SingleProject />
+      <SingleProject />
+      <SingleProject />
+      <SingleProject /> */}
     </div>
   );
 };

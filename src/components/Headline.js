@@ -12,7 +12,7 @@ export const Headline = () => {
         <span>
           I'm a Junior Front<span className="dash">-</span>end Developer.
         </span>
-        <Button />
+        <Button title="Know More" />
       </div>
     </Bounce>
   );

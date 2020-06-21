@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Bounce from "react-reveal/Bounce";
 
-export const Button = () => {
+export const Button = ({ title }) => {
   return (
     <Bounce>
       <Link to="/about">
-        <button class="btn">Know More</button>
+        <button className="btn">{title}</button>
       </Link>
     </Bounce>
   );
