@@ -6,7 +6,7 @@ export const Button = ({ title }) => {
   return (
     <Bounce>
       <Link to="/about">
-        <button className="btn">{title}</button>
+        <button className="btn project-btn">{title}</button>
       </Link>
     </Bounce>
   );

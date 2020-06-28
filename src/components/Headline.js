@@ -1,6 +1,7 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import Button from "./Button";
+import Social from "./Social";
 
 export const Headline = () => {
   return (
@@ -13,6 +14,9 @@ export const Headline = () => {
           I'm a Junior Front<span className="dash">-</span>end Developer.
         </span>
         <Button title="Know More" />
+        <Bounce>
+          <Social />
+        </Bounce>
       </div>
     </Bounce>
   );

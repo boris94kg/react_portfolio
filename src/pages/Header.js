@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Fragment>
       <Reveal>
-        <header>
+        <header className="header-responsive">
           <div className="logo">
             <Link to="/" className="link">
               <img src={logo} alt="" className="logo-img" />
