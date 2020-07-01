@@ -16,7 +16,7 @@ export const SingleProject = ({ name, imgSrc, desc, appUrl, gitRepoUrl }) => {
         <p className="subtitle">{desc}</p>
         <div className="buttons">
           <ExternalLink href={gitRepoUrl}>
-            <button className="btn github">Code</button>
+            <button className="btn github">See Code</button>
           </ExternalLink>
         </div>
       </div>
