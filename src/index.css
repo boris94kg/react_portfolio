@@ -419,6 +419,7 @@ header {
 
   .title {
     margin-bottom: 5rem;
+    font-size: 2rem;
   }
 
   .about-container {
@@ -434,13 +435,36 @@ header {
   }
 
   .projects-container .project {
-    max-height: 22rem;
+    flex-direction: column;
+    /* max-height: 22rem; */
   }
 
   .projects-container .card {
     flex-basis: 19rem;
     max-height: 22rem;
-    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    margin: 1rem auto 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .projects-container .project-desc {
+    width: 85%;
+    margin: 2rem auto 2rem !important;
+  }
+
+  .projects-container .project-desc {
+    width: 85%;
+    margin: 2rem auto 1rem !important;
+    padding: 1rem;
+  }
+
+  .buttons .github {
+    padding: 0.7rem;
+    font-size: 1rem;
+    min-width: 11rem;
   }
 }
 
