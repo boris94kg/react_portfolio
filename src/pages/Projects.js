@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SingleProject from "../components/SingleProject";
 import bitBlog from "../images/projects_screenshot/bit_blog.png";
 import bitPeople from "../images/projects_screenshot/bit_people.png";

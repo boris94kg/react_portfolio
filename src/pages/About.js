@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import MyPhoto from "../images/img-me.jpeg";
 import Pulse from "react-reveal/Pulse";
 
