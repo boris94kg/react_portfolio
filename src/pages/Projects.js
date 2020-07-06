@@ -14,15 +14,6 @@ export const Projects = () => {
       <Pulse>
         <h1 className="title">Projects page</h1>
       </Pulse>
-      <Slide left>
-        <SingleProject
-          name="Bit Blog"
-          imgSrc={bitBlog}
-          desc="Simple React App where user can see posts and authors. Click on single post user gets all posts from one author. Click on author user gets information about that author."
-          appUrl="https://bit-authors-project.netlify.app/"
-          gitRepoUrl="https://github.com/boris94kg/Bit-Blog-Project"
-        />
-      </Slide>
       <Slide right>
         <SingleProject
           name="Bit Blog"
@@ -67,7 +58,7 @@ export const Projects = () => {
         <SingleProject
           name="Portfolio v1"
           imgSrc={portfolio_v1}
-          desc="My old portfolio website where you can learn more about me and the projects that I've made so far! You're currently on a newer version on my portfolio"
+          desc="My old portfolio website where you can learn more about me and the projects that I've made so far! You're currently on a newer version of my portfolio."
           appUrl="https://borist-portfolio.netlify.app/"
           gitRepoUrl="https://github.com/boris94kg/Portfolio-Website"
         />
