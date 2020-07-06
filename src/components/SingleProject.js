@@ -7,7 +7,7 @@ export const SingleProject = ({ name, imgSrc, desc, appUrl, gitRepoUrl }) => {
       <div className="card">
         <div className="card-image">
           <ExternalLink href={appUrl}>
-            <img src={imgSrc} alt="project-img" />
+            <img srcSet={imgSrc} alt="project-img" />
           </ExternalLink>
         </div>
       </div>
